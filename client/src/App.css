@@ -1,38 +1,58 @@
-.App {
+/*---- ALL OF THE PAGES -----*/
+
+/*The whole page*/
+.wholePage {
+  background-color: lavender;
+  margin-bottom: 0;
+}
+
+/*The title of the page*/
+.title {
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+  font-size: xxx-large;
+  color: indigo;
+  -webkit-text-stroke: .5px royalblue;
+  padding: 2rem;
+  margin-top: 0;
+}
+
+/*Nav bar*/
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*The nav bar text*/
+.navBar a {
+  color: silver;
+  font-size: large;
+  -webkit-text-stroke: 1px lightcoral;
+  text-decoration-line: none;
+}
+
+/*Title of each page*/
+.pageTitle {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*--------- MAP ---------*/
+
+/*The map on the page*/
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/*------- Restaurant Pages ------- */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*The info section below title of page*/
+.infoSection {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
 }
