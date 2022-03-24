@@ -1,0 +1,62 @@
+[
+  {
+    "id": "queen-city",
+    "name": "Queen City Brewery",
+    "cuisine": "Brewery",
+    "address": "703 Pine Street, Burlington, VT 05401",
+    "latitude": "44.45981337754867",
+    "longitude": "-73.21466445757844",
+    "phoneNumber": "(802) 540-0280",
+    "hours": "1-8PM daily",
+    "about": "Casual brewery & tasting room set in about renovated warehouse offering pints, flights & growlers.",
+    "website": "http://www.queencitybrewery.com/"
+  },
+  {
+    "id": "zero-gravity",
+    "name": "Zero Gravity Brewery",
+    "cuisine": "Brewery",
+    "address": "716 Pine St, Burlington, VT 05401",
+    "latitude": "44.45972828659368",
+    "longitude": "-73.21401792113222",
+    "phoneNumber": "(802) 497-0054",
+    "hours": "8AM-9PM daily",
+    "about": "Brewery and restaurant. They offer breakfast, lunch and dinner.",
+    "website": "https://www.zerogravitybeer.com/"
+  },
+  {
+    "id": "stone-corral",
+    "name": "Stone Corral Brewery",
+    "cuisine": "Brewpub",
+    "address": "83 Huntington Rd, Richmond, VT 05477",
+    "latitude": "44.399041056624704",
+    "longitude": "-73.00155758826193",
+    "phoneNumber": "(802) 434-5787",
+    "hours": "12-8PM Sun-Thurs, 12-9PM Fri & Sat",
+    "about": "A family owned artisanal micro brewery with pub food and live music in rustic surrounds.",
+    "website": "https://stonecorral.com/"
+  },
+  {
+    "id": "hatchet",
+    "name": "Hatchet",
+    "cuisine": "New American Restaurant",
+    "address": "30 Bridge St, Richmond, VT 05477",
+    "latitude": "44.40503342715901",
+    "longitude": "-72.99340512689812",
+    "phoneNumber": "(802) 434-3663",
+    "hours": "4-9PM Wed-Sun",
+    "about": "Restaurant with American food and beer.",
+    "website": "http://hatchetvermont.com/"
+  },
+  {
+    "id": "black-flannel",
+    "name": "Black Flannel Brewing Co.",
+    "cuisine": "Brewpub",
+    "address": "21 Essex Way # 201, Essex Junction, VT 05452",
+    "latitude": "44.50662188750043",
+    "longitude": "-73.08257983058853",
+    "phoneNumber": "(802) 857-5629",
+    "hours": "4-9PM Mon & Tues, 4-10PM Wed & Thurs, 11:30AM-10PM Fri & Sat, 11AM-5PM Sun",
+    "about": "High end casual restaurant and brewery.",
+    "website": "https://www.blackflannel.com/"
+  }
+]
