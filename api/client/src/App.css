@@ -4,6 +4,7 @@
 .wholePage {
   background-color: lavender;
   margin-bottom: 0;
+  height: 100vh;
 }
 
 /*The title of the page*/
@@ -35,6 +36,8 @@
 /*Title of each page*/
 .pageTitle {
   text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
 
 /*--------- MAP ---------*/
@@ -44,7 +47,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem;
+  padding: 2rem;
 }
 
 /*------- Restaurant Pages ------- */
@@ -55,4 +58,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  padding-right: 2rem;
+}
+
+/* The info and map */
+.wholeContainer {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
 }
