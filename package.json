@@ -1,6 +1,9 @@
 {
   "name": "yelpington",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.10.0"
+  },
   "description": "Burlington Code Academy restaurant app",
   "main": "index.js",
   "scripts": {

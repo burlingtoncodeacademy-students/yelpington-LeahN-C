@@ -5,6 +5,13 @@ require("dotenv").config();
 
 //Importing Mongoose
 const mongoose = require("mongoose");
+
+//Connecting to database
+mongoose.connect(`mongodb+srv://${process.env.USERDB}:${process.env.PASSDB}@cluster0.9otjz.mongodb.net/test`, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+
 //Importing express and cors and using "response"
 const express = require("express");
 const cors = require("cors");
@@ -14,12 +21,6 @@ const path = require("path");
 
 //Inporting these from Express
 const { request, response } = require("express");
-
-//Connecting to database
-mongoose.connect(`mongodb+srv://${process.env.USERDB}:${process.env.PASSDB}@cluster0.9otjz.mongodb.net/test`, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
 
 //Initiating the database through the connection constructor, stored in a variable
 const db = mongoose.connection;
