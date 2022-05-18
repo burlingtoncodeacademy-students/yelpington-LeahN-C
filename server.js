@@ -16,7 +16,7 @@ const path = require("path");
 const { request, response } = require("express");
 
 //Connecting to database
-mongoose.connect(`${process.env.MONGODB_CONNECTION_STRING}`, {
+mongoose.connect(`mongodb+srv://${process.env.USERDB}:${process.env.PASSDB}@cluster0.9otjz.mongodb.net/test`, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
