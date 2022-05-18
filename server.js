@@ -7,7 +7,7 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 
 //Connecting to database
-mongoose.connect(`mongodb+srv://${process.env.USERDB}:${process.env.PASSDB}@cluster0.9otjz.mongodb.net/test`, {
+mongoose.connect(`mongodb+srv://${process.env.USERDB}:${process.env.PASSDB}@cluster0.9otjz.mongodb.net/?retryWrites=true&w=majority`, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
