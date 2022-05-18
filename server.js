@@ -1,13 +1,16 @@
 /* --------- Boiler Plate ---------- */
 
+//Env file
+require("dotenv").config();
+
 //Importing Mongoose
 const mongoose = require("mongoose");
 //Importing express and cors and using "response"
 const express = require("express");
 const cors = require("cors");
 
-//Env file
-require("dotenv").config();
+// Accessing the path module
+const path = require("path");
 
 //Inporting these from Express
 const { request, response } = require("express");
@@ -42,8 +45,6 @@ app.get("/", (request, response) => {
   response.json(restaurants)
 })
 
-// Accessing the path module
-const path = require("path");
 
 // Step 1:
 app.use(express.static(path.resolve(__dirname, "./client/build")));
