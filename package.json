@@ -9,7 +9,6 @@
     "install-client": "cd client && npm install",
     "heroku-postbuild": "npm run install-client && npm run build",
     "server": "node server.js",
-    "develop": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix client\"",
     "start": "node server.js"
   },
   "repository": {
@@ -26,6 +25,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.17.3",
+    "mongodb": "^4.6.0",
     "mongoose": "^6.3.3"
   }
 }
